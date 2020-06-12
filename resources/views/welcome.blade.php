@@ -96,5 +96,14 @@
                 </div>
             </div>
         </div>
+        <div>
+            <form action="api/profiles" method="POST">
+                <input type="text" name="firstname">
+                <input type="text" name="middlename">
+                <input type="text" name="lastname">
+                <input type="text" name="occupation">
+                <input type="submit">
+            </form>
+        </div>
     </body>
 </html>
